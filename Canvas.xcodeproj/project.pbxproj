@@ -9,11 +9,10 @@
 /* Begin PBXBuildFile section */
 		D1E98D9B1A9CC8F5002658E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E98D9A1A9CC8F5002658E8 /* main.m */; };
 		D1E98D9E1A9CC8F5002658E8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E98D9D1A9CC8F5002658E8 /* AppDelegate.m */; };
-		D1E98DA11A9CC8F5002658E8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E98DA01A9CC8F5002658E8 /* ViewController.m */; };
-		D1E98DA41A9CC8F5002658E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1E98DA21A9CC8F5002658E8 /* Main.storyboard */; };
 		D1E98DA61A9CC8F5002658E8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1E98DA51A9CC8F5002658E8 /* Images.xcassets */; };
-		D1E98DA91A9CC8F5002658E8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1E98DA71A9CC8F5002658E8 /* LaunchScreen.xib */; };
 		D1E98DB51A9CC8F5002658E8 /* CanvasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E98DB41A9CC8F5002658E8 /* CanvasTests.m */; };
+		D1F88D201A9CCD660037AEEE /* CanvasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F88D1E1A9CCD660037AEEE /* CanvasViewController.m */; };
+		D1F88D211A9CCD660037AEEE /* CanvasViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1F88D1F1A9CCD660037AEEE /* CanvasViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +31,13 @@
 		D1E98D9A1A9CC8F5002658E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D1E98D9C1A9CC8F5002658E8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D1E98D9D1A9CC8F5002658E8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D1E98D9F1A9CC8F5002658E8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D1E98DA01A9CC8F5002658E8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		D1E98DA31A9CC8F5002658E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D1E98DA51A9CC8F5002658E8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		D1E98DA81A9CC8F5002658E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		D1E98DAE1A9CC8F5002658E8 /* CanvasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CanvasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1E98DB31A9CC8F5002658E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D1E98DB41A9CC8F5002658E8 /* CanvasTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CanvasTests.m; sourceTree = "<group>"; };
+		D1F88D1D1A9CCD660037AEEE /* CanvasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CanvasViewController.h; sourceTree = "<group>"; };
+		D1F88D1E1A9CCD660037AEEE /* CanvasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CanvasViewController.m; sourceTree = "<group>"; };
+		D1F88D1F1A9CCD660037AEEE /* CanvasViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CanvasViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,12 +81,11 @@
 			children = (
 				D1E98D9C1A9CC8F5002658E8 /* AppDelegate.h */,
 				D1E98D9D1A9CC8F5002658E8 /* AppDelegate.m */,
-				D1E98D9F1A9CC8F5002658E8 /* ViewController.h */,
-				D1E98DA01A9CC8F5002658E8 /* ViewController.m */,
-				D1E98DA21A9CC8F5002658E8 /* Main.storyboard */,
 				D1E98DA51A9CC8F5002658E8 /* Images.xcassets */,
-				D1E98DA71A9CC8F5002658E8 /* LaunchScreen.xib */,
 				D1E98D981A9CC8F5002658E8 /* Supporting Files */,
+				D1F88D1D1A9CCD660037AEEE /* CanvasViewController.h */,
+				D1F88D1E1A9CCD660037AEEE /* CanvasViewController.m */,
+				D1F88D1F1A9CCD660037AEEE /* CanvasViewController.xib */,
 			);
 			path = Canvas;
 			sourceTree = "<group>";
@@ -199,8 +196,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1E98DA41A9CC8F5002658E8 /* Main.storyboard in Resources */,
-				D1E98DA91A9CC8F5002658E8 /* LaunchScreen.xib in Resources */,
+				D1F88D211A9CCD660037AEEE /* CanvasViewController.xib in Resources */,
 				D1E98DA61A9CC8F5002658E8 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,9 +215,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1E98DA11A9CC8F5002658E8 /* ViewController.m in Sources */,
 				D1E98D9E1A9CC8F5002658E8 /* AppDelegate.m in Sources */,
 				D1E98D9B1A9CC8F5002658E8 /* main.m in Sources */,
+				D1F88D201A9CCD660037AEEE /* CanvasViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,25 +238,6 @@
 			targetProxy = D1E98DAF1A9CC8F5002658E8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		D1E98DA21A9CC8F5002658E8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D1E98DA31A9CC8F5002658E8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		D1E98DA71A9CC8F5002658E8 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D1E98DA81A9CC8F5002658E8 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		D1E98DB61A9CC8F5002658E8 /* Debug */ = {
@@ -345,6 +322,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Canvas/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -355,6 +333,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Canvas/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -414,6 +393,7 @@
 				D1E98DBA1A9CC8F5002658E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D1E98DBB1A9CC8F5002658E8 /* Build configuration list for PBXNativeTarget "CanvasTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +402,7 @@
 				D1E98DBD1A9CC8F5002658E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

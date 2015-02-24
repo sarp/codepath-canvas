@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CanvasViewController.h
 //  Canvas
 //
 //  Created by Sarp Centel on 2/24/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface CanvasViewController : UIViewController
 
 @end
-
